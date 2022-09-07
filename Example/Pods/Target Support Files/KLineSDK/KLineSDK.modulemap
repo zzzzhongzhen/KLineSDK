@@ -1,0 +1,6 @@
+framework module KLineSDK {
+  umbrella header "KLineSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
