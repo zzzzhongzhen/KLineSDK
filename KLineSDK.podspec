@@ -30,15 +30,32 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'KLineSDK/Classes/**/*'
-  s.swift_versions = '4.0'
+  s.source_files = 'KLineSDK/Classes/*.swift'
+  s.swift_versions = '5.0'
+    
+  s.subspec 'Class' do |classes|
+      classes.source_files = "KLineSDK/Classes/Class/*.swift"
+#      classes.public_header_files = "KLineSDK/Classes/Class/**/*.{h}"
+#      classes.dependency "#{myproject}#{myname}/Common"
+  end
+  
+  s.subspec 'Common' do |common|
+      common.source_files = "KLineSDK/Classes/Common/*.swift"
+#      common.public_header_files = "KLineSDK/Classes/Common/*.{h}"
+#      classes.dependency "#{myproject}#{myname}/Common"
+  end
 
-#  s.resources    = "KLineSDK/Assets/*"
+
+  #  s.resources    = "KLineSDK/Assets/*"
   # s.resource_bundles = {
   #   'KLineSDK' => ['KLineSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-#   s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'SnapKit', '~> 5.0.1'
+   s.dependency 'RxSwift', '~> 6.5.0'
+   s.dependency 'RxCocoa', '~> 6.5.0'
+   s.dependency 'RxSwiftExt', '~> 6.0.1'
+
 end
