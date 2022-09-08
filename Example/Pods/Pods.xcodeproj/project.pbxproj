@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27D3921328C9938300F6153E /* KScrollGraphaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3921228C9938300F6153E /* KScrollGraphaView.swift */; };
 		36B5D2EB61E8000E0BAFDFE7094544DD /* KLineSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1C48B717A59E5AF6E78B404FB6ADC7 /* KLineSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C7531461C08469E8E8EF5B003167B12 /* Pods-KLineSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AFDA32DCC82C95354C783A516C5398E /* Pods-KLineSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50400AAFF9F734FA5F794AEC2E5CFE76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5341F95411FDE440DCA9A9D06D5CE4FF /* Pods-KLineSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D038DA1F638FF100312C386F592BE3 /* Pods-KLineSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C75CFD30850A4446FEDDB2E93728717 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A689ECD2ED1275756888CFE7CEF7D2 /* ReplaceMe.swift */; };
 		B4B26E48F9FAF20F75B82E706A1CC119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B8458A59FD6FBA1F3A3F9D8061884095 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BF1528627EAC260130E35332F91B9487 /* Pods-KLineSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6DC928DDAB67C1922FB7CA0EDB4D12 /* Pods-KLineSDK_Example-dummy.m */; };
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		0405905CAD360D3CB9A47BA7A27F135E /* Pods-KLineSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLineSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		16D038DA1F638FF100312C386F592BE3 /* Pods-KLineSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KLineSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		27D3921228C9938300F6153E /* KScrollGraphaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KScrollGraphaView.swift; sourceTree = "<group>"; };
 		452F2DD61CC0032DB92B26D5C8E01422 /* Pods-KLineSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KLineSDK_Example"; path = Pods_KLineSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F894401B7DA0DC8F6781DE5233C101 /* Pods-KLineSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLineSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48753287134B9A46D9039DEB44C8B6E6 /* KLineSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KLineSDK-Info.plist"; sourceTree = "<group>"; };
@@ -53,17 +54,16 @@
 		84965B17B12F7EF44FA14ABEDC300960 /* Pods-KLineSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLineSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		88F6260E1C6937376C221E83CB30CA5B /* Pods-KLineSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLineSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8910DF7D73D3B0AECE1932445063EBA8 /* Pods-KLineSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KLineSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5F1814E31FFF8BF557025C8D5B3627 /* KLineSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLineSDK; path = KLineSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A346FCF140C22DAAA249E32E4B86356C /* KLineSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KLineSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A346FCF140C22DAAA249E32E4B86356C /* KLineSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KLineSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A558D418A302FDE9A6BB3258A544FE36 /* KLineSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLineSDK-dummy.m"; sourceTree = "<group>"; };
-		AF829FB10A573AFA10EBAF839D3CE271 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AF829FB10A573AFA10EBAF839D3CE271 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B3054F2CBA613D136427D0F59EC59994 /* Pods-KLineSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLineSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B6E4DE113D850E3118E727F906F3F409 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B6E4DE113D850E3118E727F906F3F409 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B749646809C775602255A2E5FB959DF6 /* KLineSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLineSDK.debug.xcconfig; sourceTree = "<group>"; };
 		C434D03F9E91F8F8802AF5133832F659 /* Pods-KLineSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KLineSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CB33563E095DB047BADAEE526966B51C /* Pods-KLineSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLineSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D3A689ECD2ED1275756888CFE7CEF7D2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KLineSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D67C75D00A3FDF2DB4FF0FB121E6B5E3 /* Pods-KLineSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLineSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		D8BCC0E66FFE0EFEC156D48D83378D5C /* KLineSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLineSDK.release.xcconfig; sourceTree = "<group>"; };
 		EC6DC928DDAB67C1922FB7CA0EDB4D12 /* Pods-KLineSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KLineSDK_Example-dummy.m"; sourceTree = "<group>"; };
@@ -110,6 +110,21 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		27D3921128C9936E00F6153E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				27D3921228C9938300F6153E /* KScrollGraphaView.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		27D3921428C9939400F6153E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		3B21D5D8729BABDD59EF9CEB577ED828 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +160,8 @@
 		5951E86FEC9DFBAE31A40FEC6122D3FE /* KLineSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D3A689ECD2ED1275756888CFE7CEF7D2 /* ReplaceMe.swift */,
+				27D3921428C9939400F6153E /* Util */,
+				27D3921128C9936E00F6153E /* Class */,
 				13D2332179933EFA0F8432B1EDAD7F5B /* Pod */,
 				42F5585832B928454D7BBFABBF2B3E0F /* Support Files */,
 			);
@@ -383,8 +399,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D3921328C9938300F6153E /* KScrollGraphaView.swift in Sources */,
 				F4F01EBEC5D0D55837B6DB06D605B527 /* KLineSDK-dummy.m in Sources */,
-				5C75CFD30850A4446FEDDB2E93728717 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,8 +544,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

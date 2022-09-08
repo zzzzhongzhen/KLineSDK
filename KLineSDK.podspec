@@ -21,18 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZhongZhen/KLineSDK'
+  s.homepage         = 'https://github.com/zzzzhongzhen/KLineSDK.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZhongZhen' => '18701503072@163.com' }
-  s.source           = { :git => 'https://github.com/ZhongZhen/KLineSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zzzzhongzhen/KLineSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'KLineSDK/Classes/**/*'
-  s.resources    = "KLineSDK/Assets/*"
+  s.swift_versions = '4.0'
 
+#  s.resources    = "KLineSDK/Assets/*"
   # s.resource_bundles = {
   #   'KLineSDK' => ['KLineSDK/Assets/*.png']
   # }
