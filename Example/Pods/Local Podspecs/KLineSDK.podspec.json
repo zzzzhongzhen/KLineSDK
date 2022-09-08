@@ -16,9 +16,8 @@
     "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "KLineSDK/Classes/*.swift",
   "swift_versions": "5.0",
   "dependencies": {
     "SnapKit": [
@@ -32,6 +31,9 @@
     ],
     "RxSwiftExt": [
       "~> 6.0.1"
+    ],
+    "SwifterSwift": [
+      "~> 5.2.0"
     ]
   },
   "subspecs": [

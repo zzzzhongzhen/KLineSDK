@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let scr = KScrollGraphaView()
+        scr.frame = CGRect(x: 0, y: 100, width: C.Screen.width, height: 400)
+        self.view.addSubview(scr)
     }
 
     override func didReceiveMemoryWarning() {

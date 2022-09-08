@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zzzzhongzhen/KLineSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'KLineSDK/Classes/*.swift'
+#  s.source_files = 'KLineSDK/Classes/*.swift'
   s.swift_versions = '5.0'
     
   s.subspec 'Class' do |classes|
@@ -57,5 +57,7 @@ TODO: Add long description of the pod here.
    s.dependency 'RxSwift', '~> 6.5.0'
    s.dependency 'RxCocoa', '~> 6.5.0'
    s.dependency 'RxSwiftExt', '~> 6.0.1'
+   # 快捷方法
+   s.dependency 'SwifterSwift', '~> 5.2.0'
 
 end

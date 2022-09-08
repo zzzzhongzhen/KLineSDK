@@ -6,16 +6,19 @@ PODS:
     - RxSwift (~> 6.5.0)
     - RxSwiftExt (~> 6.0.1)
     - SnapKit (~> 5.0.1)
+    - SwifterSwift (~> 5.2.0)
   - KLineSDK/Class (1.0.0):
     - RxCocoa (~> 6.5.0)
     - RxSwift (~> 6.5.0)
     - RxSwiftExt (~> 6.0.1)
     - SnapKit (~> 5.0.1)
+    - SwifterSwift (~> 5.2.0)
   - KLineSDK/Common (1.0.0):
     - RxCocoa (~> 6.5.0)
     - RxSwift (~> 6.5.0)
     - RxSwiftExt (~> 6.0.1)
     - SnapKit (~> 5.0.1)
+    - SwifterSwift (~> 5.2.0)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -31,6 +34,31 @@ PODS:
     - RxCocoa (~> 6.0)
     - RxSwiftExt/Core
   - SnapKit (5.0.1)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
 
 DEPENDENCIES:
   - KLineSDK (from `../`)
@@ -42,19 +70,21 @@ SPEC REPOS:
     - RxSwift
     - RxSwiftExt
     - SnapKit
+    - SwifterSwift
 
 EXTERNAL SOURCES:
   KLineSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KLineSDK: 0520c44f565d808e3fda3feba520c827d3d3856f
+  KLineSDK: 93bca42175e95b22dff58a36928ef806ebf978b4
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   RxSwiftExt: d61c4b9b06e0a448041b1c659e0f1b5c5a035afc
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
 
-PODFILE CHECKSUM: 22033e16eb0990c434a7b60680ec8b0b0c3a46f2
+PODFILE CHECKSUM: 487c03c90e91d6523b05eb36412612aec0b3b49b
 
 COCOAPODS: 1.11.3
