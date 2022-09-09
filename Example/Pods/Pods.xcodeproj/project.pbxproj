@@ -79,6 +79,8 @@
 		2677F61BE31A97E27AFF63D1BE7C9EDD /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866CFAC78EA386100FBDB2C59143FDE1 /* ScheduledItemType.swift */; };
 		268E940CA183ABFF5394DCA5D82A3678 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C5963973C1AB8FC179FA77AD2D80F6 /* Constants.swift */; };
 		27CEE4EBE73677BFE57752103D4BCAA7 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73FE1458269FFF327E2B7ECD597E2 /* Zip.swift */; };
+		27D3933C28CA12DF00F6153E /* CylinderDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3933B28CA12DF00F6153E /* CylinderDrawingLayer.swift */; };
+		27D3933E28CA138E00F6153E /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3933D28CA138E00F6153E /* ScrollableGraphViewDrawingLayer.swift */; };
 		28E227EC64C51EDBECD184F0C80E4C57 /* Amb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E674B00701412ABDBAFE14E70E2156EB /* Amb.swift */; };
 		2A51C89C50B229C33F5A5FDD5E3B6004 /* NSButton+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7458C69DC9128EB7AFFBF9A93A7EEB /* NSButton+Rx.swift */; };
 		2B6DA3B8FA9ADD8C23C988FF2BA26F12 /* CharacterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E136026BD3A491D1F8779BF9CACD6D0 /* CharacterExtensions.swift */; };
@@ -691,6 +693,8 @@
 		26ECC9EA14D3002A35C377266174A2AB /* NSTextView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextView+Rx.swift"; path = "RxCocoa/macOS/NSTextView+Rx.swift"; sourceTree = "<group>"; };
 		26ED069C0221298F6375978AEF850CEE /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIfEmpty.swift; path = RxSwift/Observables/DefaultIfEmpty.swift; sourceTree = "<group>"; };
 		27159CFDF412B9EF5FEA14289DBCD618 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedUnsubscribeType.swift; path = RxSwift/Concurrency/SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
+		27D3933B28CA12DF00F6153E /* CylinderDrawingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CylinderDrawingLayer.swift; sourceTree = "<group>"; };
+		27D3933D28CA138E00F6153E /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
 		285CDAEDC66A44194EF612C67D6B832D /* UICollectionView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Rx.swift"; path = "RxCocoa/iOS/UICollectionView+Rx.swift"; sourceTree = "<group>"; };
 		289CADB75CEB1F4963CC02C12114372A /* Disposables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposables.swift; path = RxSwift/Disposables/Disposables.swift; sourceTree = "<group>"; };
 		28F2D9BFCEE0055BF8445567EF80824F /* RxRelay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxRelay.modulemap; sourceTree = "<group>"; };
@@ -1547,6 +1551,8 @@
 			children = (
 				6C1CA856ECAC002DA0E03E89D07AF026 /* KLineCell.swift */,
 				8CC67EB646F2FE8E3DAE7C01809DC116 /* KScrollGraphaView.swift */,
+				27D3933B28CA12DF00F6153E /* CylinderDrawingLayer.swift */,
+				27D3933D28CA138E00F6153E /* ScrollableGraphViewDrawingLayer.swift */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -2815,7 +2821,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				268E940CA183ABFF5394DCA5D82A3678 /* Constants.swift in Sources */,
+				27D3933E28CA138E00F6153E /* ScrollableGraphViewDrawingLayer.swift in Sources */,
 				B425D9EBC9FA6C29DC606D1F6B8AD628 /* KLineCell.swift in Sources */,
+				27D3933C28CA12DF00F6153E /* CylinderDrawingLayer.swift in Sources */,
 				4CC43F42293D6844BB39BD433D9230E5 /* KLineSDK-dummy.m in Sources */,
 				D0943AE26BC688BE977913C4E8B43172 /* KScrollGraphaView.swift in Sources */,
 			);

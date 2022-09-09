@@ -17,10 +17,15 @@ class KLineCell: UITableViewCell {
         let maxPrice: Double
         let minPrice: Double
     }
-    var content: CALayer = CALayer()
+    var pillarLayer: CylinderDrawingLayer?
+    var topLineLayer: CylinderDrawingLayer?
+    var downLineLayer: CylinderDrawingLayer?
+
     let lab = UILabel()
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.contentView.backgroundColor = UIColor.blue
         setup()
     }
     
@@ -31,7 +36,8 @@ class KLineCell: UITableViewCell {
         lab.text = "dsada"
         lab.frame = CGRect(x: 0, y: 10, width: 100, height: 20)
         lab.textColor = UIColor.red
+        lab.backgroundColor = UIColor.white
         self.addSubview(lab)
-        layer.addSublayer(content)
+        
     }
 }
