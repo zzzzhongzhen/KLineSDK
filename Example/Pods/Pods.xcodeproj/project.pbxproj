@@ -76,6 +76,7 @@
 		25AA844AB4E3F20182095178D1D94E20 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A819CB43410458715CC44CBF9AF49 /* Errors.swift */; };
 		25CA26A6675865168721F375407F9C2C /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A679029472BD033C61B4A6C3585947 /* Reduce.swift */; };
 		2662A1240F12D8EFF7E840C6A3D871E2 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09517C64D8F1B3C5A1864BA9C2375708 /* AnonymousDisposable.swift */; };
+		2754B96028D01BD40011EF5E /* CoordinateLineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754B95F28D01BD40011EF5E /* CoordinateLineDrawingLayer.swift */; };
 		27EE6C71109A2BE62AFDEA46DAAA07E7 /* nwise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76B4D0591CEBEFE8B7B4086670D7F83 /* nwise.swift */; };
 		28867972253D05944677C734DC9AA42A /* ObservableConvertibleType+Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF949B9CAC592630FF5BF7026974E2C9 /* ObservableConvertibleType+Driver.swift */; };
 		28DBEE1215A1F57473C9077F6ADCEEB2 /* UITabBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAC9E582B5E79FE9DDC32A52BFD577 /* UITabBarExtensions.swift */; };
@@ -625,7 +626,7 @@
 		042CC3FFB9CC55E054CD6C079E74F730 /* SwifterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwifterSwift.modulemap; sourceTree = "<group>"; };
 		048CA248027E676331217D260714C02C /* DelegateProxyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxyType.swift; path = RxCocoa/Common/DelegateProxyType.swift; sourceTree = "<group>"; };
 		04AF41E78CDCE51A375E5D5BACCA76E1 /* SCNBoxExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCNBoxExtensions.swift; path = Sources/SwifterSwift/SceneKit/SCNBoxExtensions.swift; sourceTree = "<group>"; };
-		04C80852DFF75053EEF74164C082A0D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		04C80852DFF75053EEF74164C082A0D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04D2304011275E22A32384AEF795F2CD /* UITextField+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Rx.swift"; path = "RxCocoa/iOS/UITextField+Rx.swift"; sourceTree = "<group>"; };
 		04D2558F4D72D2D323E60AFAA759A79F /* AsSingle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsSingle.swift; path = RxSwift/Observables/AsSingle.swift; sourceTree = "<group>"; };
 		05743ABCC28F6B6DF96B023F417B1CE8 /* UILayoutPriorityExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILayoutPriorityExtensions.swift; path = Sources/SwifterSwift/UIKit/UILayoutPriorityExtensions.swift; sourceTree = "<group>"; };
@@ -698,6 +699,7 @@
 		26ECC9EA14D3002A35C377266174A2AB /* NSTextView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextView+Rx.swift"; path = "RxCocoa/macOS/NSTextView+Rx.swift"; sourceTree = "<group>"; };
 		26ED069C0221298F6375978AEF850CEE /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIfEmpty.swift; path = RxSwift/Observables/DefaultIfEmpty.swift; sourceTree = "<group>"; };
 		27159CFDF412B9EF5FEA14289DBCD618 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedUnsubscribeType.swift; path = RxSwift/Concurrency/SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
+		2754B95F28D01BD40011EF5E /* CoordinateLineDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoordinateLineDrawingLayer.swift; path = KLineSDK/Classes/Class/CoordinateLineDrawingLayer.swift; sourceTree = "<group>"; };
 		285CDAEDC66A44194EF612C67D6B832D /* UICollectionView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Rx.swift"; path = "RxCocoa/iOS/UICollectionView+Rx.swift"; sourceTree = "<group>"; };
 		289CADB75CEB1F4963CC02C12114372A /* Disposables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposables.swift; path = RxSwift/Disposables/Disposables.swift; sourceTree = "<group>"; };
 		28F2D9BFCEE0055BF8445567EF80824F /* RxRelay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxRelay.modulemap; sourceTree = "<group>"; };
@@ -747,7 +749,7 @@
 		3FE27569866514E3DB3478FFBA06A247 /* RxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-umbrella.h"; sourceTree = "<group>"; };
 		3FFA25D7A31E8D78BCEE16475714E709 /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = RxCocoa/Common/DelegateProxy.swift; sourceTree = "<group>"; };
 		4056A40E933E6870D8AD9D518A991DF1 /* Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decode.swift; path = RxSwift/Observables/Decode.swift; sourceTree = "<group>"; };
-		40F024E92974B1CE476402E93589CE58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		40F024E92974B1CE476402E93589CE58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4178063555FE610693BB315E34624E27 /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtensions.swift; path = Sources/SwifterSwift/UIKit/UILabelExtensions.swift; sourceTree = "<group>"; };
 		419481507DF1635ACF0DA6D364CF829E /* and.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = and.swift; path = Source/RxSwift/and.swift; sourceTree = "<group>"; };
 		41D681E28128A0CC536FBE7E40221A0D /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Sources/SwifterSwift/UIKit/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
@@ -798,7 +800,7 @@
 		5491AB792C6B4F9543EDB390AC8B2531 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldExtensions.swift; path = Sources/SwifterSwift/UIKit/UITextFieldExtensions.swift; sourceTree = "<group>"; };
 		54ED61039992F5B7911EE53C5EB983E5 /* RxCocoa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxCocoa-Info.plist"; sourceTree = "<group>"; };
 		5503BD23E64EC364CF1AE5D5E4266F36 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		562C96501BCB060A6592AB8BE7B9E5DF /* KLineSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KLineSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		562C96501BCB060A6592AB8BE7B9E5DF /* KLineSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KLineSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5891EF8CDCCC43043C84123DC487FFB9 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Sources/SwifterSwift/SwiftStdlib/StringExtensions.swift; sourceTree = "<group>"; };
 		59267E8AA69D5AC9CC82668C80AF3404 /* SwifterSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwifterSwift.debug.xcconfig; sourceTree = "<group>"; };
 		5939BD9F67011F63D6AD554C8A685D03 /* UIBarButtonItem+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Rx.swift"; path = "RxCocoa/iOS/UIBarButtonItem+Rx.swift"; sourceTree = "<group>"; };
@@ -935,7 +937,7 @@
 		9CAAB58BFAD1980D81CAB8190898505B /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
 		9CCD02F2F936C343FAF5ECF6BFA32A83 /* RxPickerViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxPickerViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxPickerViewDelegateProxy.swift; sourceTree = "<group>"; };
 		9D3771E42D8937E28F58E99A62073659 /* RxTableViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDelegateProxy.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DCB5EF9663FBCB24A580878138696F7 /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completable.swift; path = RxSwift/Traits/PrimitiveSequence/Completable.swift; sourceTree = "<group>"; };
 		9E27646B6FE96E4B274440F2AF0A0C35 /* NSObject+Rx+KVORepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx+KVORepresentable.swift"; path = "RxCocoa/Foundation/NSObject+Rx+KVORepresentable.swift"; sourceTree = "<group>"; };
 		9E5F1814E31FFF8BF557025C8D5B3627 /* KLineSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLineSDK; path = KLineSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1268,7 +1270,6 @@
 				6356117A2E3BD0CDCC2F85B304D101C5 /* Utils.swift */,
 				70E29AD2BA0ACA659915F3E2D6C8229F /* Support Files */,
 			);
-			name = RxRelay;
 			path = RxRelay;
 			sourceTree = "<group>";
 		};
@@ -1477,7 +1478,6 @@
 				BD236730A4F83F17F04ABF5502FF3053 /* Zip+Collection.swift */,
 				3E3AED28AF6EBC1350C0FCCBB4FB9080 /* Support Files */,
 			);
-			name = RxSwift;
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
@@ -1491,6 +1491,7 @@
 		2F72460F9BB88BFB2E3CEFBD7A6A1031 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				2754B95F28D01BD40011EF5E /* CoordinateLineDrawingLayer.swift */,
 				8C8453C1E28E66C35868A10B29059BBA /* Copyable.swift */,
 				7FEC38C3CCA046626A3CE98A02D8EDA9 /* CylinderDrawingLayer.swift */,
 				AEC297E60234FE48F8D764E27BF72F2B /* GraphPoint.swift */,
@@ -1697,7 +1698,6 @@
 				CBA8C64948913BA885B72B6F7346898E /* UILayoutSupport+Extensions.swift */,
 				9A90855D70BB376F573A3C44591EC2AA /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -1751,7 +1751,6 @@
 				A7049676959C8D02F1E875671E2CBE71 /* RxCocoa */,
 				1F9DDC0AD8C5CA26B4BE545F272D7CA3 /* Support Files */,
 			);
-			name = RxSwiftExt;
 			path = RxSwiftExt;
 			sourceTree = "<group>";
 		};
@@ -1900,7 +1899,6 @@
 				5DDB87ABE0B07C6EB4C8028FB9761BBB /* SwiftStdlib */,
 				CFE425B6A309F985D37EC3D7087086E2 /* UIKit */,
 			);
-			name = SwifterSwift;
 			path = SwifterSwift;
 			sourceTree = "<group>";
 		};
@@ -2048,7 +2046,6 @@
 				DB81B8F62FB762230ACC72BBE22C8636 /* WKWebView+Rx.swift */,
 				FD6A3475E8140225426304B84C0D3FDC /* Support Files */,
 			);
-			name = RxCocoa;
 			path = RxCocoa;
 			sourceTree = "<group>";
 		};
@@ -2404,6 +2401,7 @@
 			files = (
 				AC6EB24E7B4DD4C27FA3C214DA4A15E2 /* Constants.swift in Sources */,
 				48408CB5388202D7569FA0B4857CD483 /* Copyable.swift in Sources */,
+				2754B96028D01BD40011EF5E /* CoordinateLineDrawingLayer.swift in Sources */,
 				92638930181E4F180DE7BF980A47F489 /* CylinderDrawingLayer.swift in Sources */,
 				3DEC0375C130035254E3A7674A6F0847 /* GraphPoint.swift in Sources */,
 				D31FB83F5CA1D7DA89376CBD65FF3D71 /* KLineCell.swift in Sources */,
@@ -3429,8 +3427,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
